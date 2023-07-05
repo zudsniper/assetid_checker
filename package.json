@@ -1,0 +1,32 @@
+{
+  "name": "assetid_compare",
+  "version": "1.1.1",
+  "description": "compares assetids from inventory of user steamid64 provided against list of assetids which were involved in scam",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/app.js",
+    "go": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "zudsniper",
+  "license": "MIT",
+  "dependencies": {
+    "@tf2autobot/steamcommunity": "^3.46.1",
+    "@tf2autobot/tf2-schema": "^4.2.13",
+    "@tf2autobot/tradeoffer-manager": "^2.14.5",
+    "@xfaider/node-steam-inventory": "^1.1.0",
+    "axios": "^1.4.0",
+    "chalk": "4.1.2",
+    "commander": "^11.0.0",
+    "console-gui-tools": "^3.0.4",
+    "dotenv": "^16.3.1",
+    "loglevel": "^1.8.1",
+    "steamcommunity": "^3.46.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3"
+  }
+}
